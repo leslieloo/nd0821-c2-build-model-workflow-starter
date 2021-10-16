@@ -35,6 +35,10 @@ def go(args):
     logger.info(f"Convert data column 'last_review' to datetime type")
     df['last_review'] = pd.to_datetime(df['last_review'])
 
+    # Fix Bug in version 1.0.1
+    idx = df['longitude'].between(-74.25, -73.50) & df['latitude'].between(40.5, 41.2)
+    df = df[idx].copy()
+
     logger.info(f"Save clean data to clean_sample.csv")
     df.to_csv("clean_sample.csv", index=False)
 
