@@ -6,7 +6,8 @@ to be retrained with the same cadence, necessitating an end-to-end pipeline that
 
 In this project you will build such a pipeline.
 
-Github project url : https://github.com/leslieloo/nd0821-c2-build-model-workflow-starter[https://github.com/leslieloo/nd0821-c2-build-model-workflow-starter]
+Github project url : [https://github.com/leslieloo/nd0821-c2-build-model-workflow-starter](https://github.com/leslieloo/nd0821-c2-build-model-workflow-starter)
+
 Weights & Biases project url : [https://wandb.ai/lesl/nyc_airbnb](https://wandb.ai/lesl/nyc_airbnb)
 
 ## Table of contents
